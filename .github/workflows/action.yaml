@@ -1,9 +1,9 @@
 name: ECS CI/CD pipeline 
 
 on: 
-push:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
   build:
